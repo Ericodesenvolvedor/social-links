@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --hue: 208;
+    --primary-color: hsl(var(--hue), 41%, 10%);
+    --primary-color-light: hsl(var(--hue), 41%, 20%);
+    --secondary-color: hsl(var(--hue), 100%, 72%);
+    --secondary-color-hover: hsl(var(--hue), 100%, 50%);
+    --text-color: hsl(220, 12%, 95%);
+    --text-color-light: hsl(220, 12%, 95%, 60%);
+    --text-color-dark: hsl(220, 12%, 10%);
+
+    --fs-01: 1.2rem;
+    --fs-02: 1.4rem;
+    --fs-03: 1.8rem;
+    --fs-04: 3.2rem;
+
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--primary-color);
+    display: grid;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    min-height: 100vh;
+    padding: 5rem 1rem 0;
+}
+
+.container {
+    align-self: flex-start;
+    justify-self: center;
+    max-width: 378px;
+    width: 100%;
+}

@@ -1,0 +1,19 @@
+.footer {
+    align-items: center;
+    align-self: flex-end;
+    color: var(--text-color);
+    display: flex;
+    font-size: var(--fs-01);
+    gap: 0.3rem;
+    justify-self: center;
+    padding: 2rem;
+}
+
+.footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: var(--text-color-light);
+}

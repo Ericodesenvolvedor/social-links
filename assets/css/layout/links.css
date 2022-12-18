@@ -1,0 +1,28 @@
+.links .links__items {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.links__items  li {
+    background-color: var(--secondary-color);
+    list-style: none;
+    padding: 1.6rem 0;
+    width: 100%;
+}
+
+.links__items  li:hover {
+    background-color: var(--secondary-color-hover);
+}
+
+.links__items  li a {
+    align-items: center;
+    color: var(--text-color-dark);
+    display: flex;
+    font-size: var(--fs-02);
+    font-weight: 700;
+    gap: 0.5rem;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
