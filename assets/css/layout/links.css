@@ -26,3 +26,9 @@
     text-decoration: none;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 768px) {
+    .links__items  li { 
+        pointer-events: none;
+    }
+}
