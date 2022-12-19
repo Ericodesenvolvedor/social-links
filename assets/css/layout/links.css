@@ -28,7 +28,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .links__items  li { 
-        pointer-events: none;
+    .links__items  li:hover { 
+        background-color: var(--secondary-color);
     }
 }
